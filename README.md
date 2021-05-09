@@ -1,2 +1,2 @@
 # Test
-Tempporary RSudio Project
+Temporary RSudio Project
