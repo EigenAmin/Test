@@ -1,6 +1,7 @@
-library(datasets)
+library(ggplot2)
 data("iris")
-plot(iris$Sepal.Length,
-     iris$Sepal.Width,
-     col ="green",
-     pch = 18)
+
+ggplot(iris, aes(x = Species,
+                 y =sepal.length)) +
+  geom_boxplot()
+  
